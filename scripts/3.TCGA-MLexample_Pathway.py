@@ -95,12 +95,14 @@ classifier_genes_df
 
 # In[8]:
 
-get_ipython().run_cell_magic('time', '', "path = os.path.join('download', 'expression-matrix.tsv.bz2')\nX = pd.read_table(path, index_col=0)")
+path = os.path.join('download', 'expression-matrix.pkl')
+X = pd.read_pickle(path)
 
 
 # In[9]:
 
-get_ipython().run_cell_magic('time', '', "path = os.path.join('download', 'mutation-matrix.tsv.bz2')\nY = pd.read_table(path, index_col=0)")
+path = os.path.join('download', 'mutation-matrix.pkl')
+Y = pd.read_pickle(path)
 
 
 # In[10]:

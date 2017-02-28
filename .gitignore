@@ -1,8 +1,8 @@
+# Downloaded files
+download
+
 # Jupyter Notebooks
 .ipynb_checkpoints
-
-# Large downloaded data files
-download/
 
 # Mac metadata
 .DS_Store
